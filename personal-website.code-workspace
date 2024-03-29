@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../aggregate-dev/app"
+		},
+		{
+			"name": "html-css-js-portfolio-tutorial-2",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html-css-js-portfolio-tutorial-2"
+	}
+}
