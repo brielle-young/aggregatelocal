@@ -1,5 +1,5 @@
 @media screen and (max-width: 1400px) {
-  #profile {
+  #home {
     height: 83vh;
     margin-bottom: 6rem;
   }
@@ -7,7 +7,7 @@
     flex-wrap: wrap;
   }
   #contact,
-  #projects {
+  #about {
     height: fit-content;
   }
 }
@@ -19,11 +19,11 @@
   #hamburger-nav {
     display: flex;
   }
-  #writing,
-  .writing-details-container {
+  #farmer,
+  .farmer-details-container {
     margin-top: 2rem;
   }
-  #profile,
+  #home,
   .section-container {
     display: block;
   }
@@ -52,7 +52,7 @@
   footer {
     height: 40vh;
   }
-  #profile {
+  #home {
     height: 83vh;
     margin-bottom: 0;
   }
