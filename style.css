@@ -56,6 +56,16 @@ nav ul li a:hover {
 }
 
 /* Main content styles */
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: #2e4f2f;
+  padding: 4rem 4rem;
+  position: relative;
+  overflow: hidden;
+  min-height: 80vh;
+}
+
 .hero::before {
   content: "";
   position: absolute;
@@ -75,15 +85,6 @@ nav ul li a:hover {
   z-index: 1;
   text-align: center;
   padding: 4rem;
-}
-.hero {
-  display: flex;
-  align-items: center;
-  background-color: #2e4f2f;
-  padding: 4rem 4rem;
-  position: relative;
-  overflow: hidden;
-  min-height: 80vh;
 }
 
 .hero h1 {
