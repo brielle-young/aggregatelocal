@@ -78,6 +78,11 @@ nav ul li a:hover {
   color: #2e4f2f;
 }
 
+h1 em {
+  font-style: italic;
+}
+
+
 .hero p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
