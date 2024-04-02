@@ -62,7 +62,7 @@ nav ul li a:hover {
   padding: 4rem 4rem;
   position: center;
   overflow: hidden;
-  min-height: 80vh;
+  min-height: 70vh;
 }
 
 .hero::before {
