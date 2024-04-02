@@ -8,7 +8,7 @@
 /* Global styles */
 body {
   font-family: 'Montserrat', serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   color: #333;
 }
@@ -46,7 +46,7 @@ nav ul li {
 
 nav ul li a {
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   transition: color 0.3s ease;
 }
 
@@ -124,9 +124,9 @@ h1 em {
   background-color: #fff;
   color: #006400;
   padding: 1rem 2rem;
-  border-radius: 4px;
-  font-size: 1.2rem;
-  font-weight: 500;
+  border-radius: 3.5px;
+  font-size: 1.4rem;
+  font-weight: 700;
   transition: background-color 0.3s ease;
 }
 
