@@ -33,6 +33,7 @@ nav {
 
 .logo img {
   max-height: 70px;
+  align-items: center;
 }
 
 nav ul {
