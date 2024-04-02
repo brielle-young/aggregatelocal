@@ -1,3 +1,33 @@
+@media (max-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+
+  .logo img {
+    max-height: 40px;
+  }
+
+  nav ul li {
+    margin-left: 1rem;
+  }
+
+  .hero {
+    padding: 2rem 1.5rem;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+  }
+}
 @media screen and (max-width: 1400px) {
   #home {
     height: 83vh;
