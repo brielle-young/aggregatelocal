@@ -75,7 +75,7 @@ nav ul li a:hover {
   background-image: 'heroback.jpg';
   background-size: cover;
   background-position: center;
-  opacity: 0.8; /* Adjust this value to change the opacity */
+  opacity: 0.2; /* Adjust this value to change the opacity */
   z-index: 0;
 }
 
