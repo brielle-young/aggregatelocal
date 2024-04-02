@@ -62,6 +62,7 @@ nav ul li a:hover {
   padding: 4rem 4rem;
   position: relative;
   overflow: hidden;
+  min-height: 80vh;
 }
 
 .hero-content {
