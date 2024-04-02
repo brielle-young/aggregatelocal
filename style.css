@@ -22,7 +22,7 @@ a {
 header {
   background-color: #2e4f2f;
   color: #fff;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 nav {
@@ -59,7 +59,7 @@ nav ul li a:hover {
 .hero {
   display: flex;
   align-items: center;
-  background-color: rgba(46, 79, 47, 0.8); /* Adjust the opacity value */
+  background-image: url('heroback.jpg')
   padding: 4rem 4rem;
   position: relative;
   overflow: hidden;
