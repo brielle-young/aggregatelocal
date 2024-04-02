@@ -32,7 +32,7 @@ nav {
 }
 
 .logo img {
-  max-height: 60px;
+  max-height: 70px;
 }
 
 nav ul {
@@ -59,7 +59,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   background-color: #2e4f2f;
-  padding: 4rem 2rem;
+  padding: 4rem 4rem;
   position: relative;
   overflow: hidden;
 }
@@ -123,7 +123,7 @@ h1 em {
   display: inline-block;
   background-color: #fff;
   color: #006400;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   border-radius: 3.5px;
   font-size: 1.4rem;
   font-weight: 700;
