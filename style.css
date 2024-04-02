@@ -134,25 +134,64 @@ h1 em {
   background-color: #3a713b;
 }
 
-.hero-image-gallery {
-  flex: 1;
+.info-section {
+  background-color: #f5f5f5;
+  padding: 80px 20px;
+}
+
+.info-section-content {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.gallery-container {
+.hero-image-gallery {
+  flex: 1;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
-  max-width: 400px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
 .gallery-item img {
   width: 100%;
-  height: auto;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.customer-benefits {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.benefit-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #006400;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.benefit-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.benefit-item p {
+  font-size: 16px;
+  color: #666;
 }
 
 /* Sun in the background */
