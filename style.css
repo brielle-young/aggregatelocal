@@ -121,19 +121,26 @@ h1 em {
   color: #999;
 }
 
-.cta {
+.cta-button {
   display: inline-block;
-  background-color: #fff;
-  color: #006400;
-  padding: 1rem 3rem;
-  border-radius: 3.5px;
-  font-size: 1.4rem;
+  background-color: #ff6b6b;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-size: 1.2rem;
   font-weight: 700;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.cta:hover {
-  background-color: #3a713b;
+.cta-button:hover {
+  background-color: #ff4d4d;
+  transform: scale(1.05);
+}
+
+.cta-button:active {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95);
 }
 
 .info-section {
