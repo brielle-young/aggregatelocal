@@ -72,7 +72,7 @@ nav ul li a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: 'heroback.jpg';
+  background-image: './oranges2.jpg';
   background-size: cover;
   background-position: center;
   opacity: 0.2; /* Adjust this value to change the opacity */
