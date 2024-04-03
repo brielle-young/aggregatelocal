@@ -59,7 +59,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   padding: 4rem 4rem;
-  position: center;
+  position: relative;
   overflow: hidden;
   min-height: 70vh;
 }
