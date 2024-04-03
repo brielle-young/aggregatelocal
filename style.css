@@ -58,7 +58,6 @@ nav ul li a:hover {
 .hero {
   display: flex;
   align-items: center;
-  background-color: #2e4f2f;
   padding: 4rem 4rem;
   position: center;
   overflow: hidden;
@@ -75,7 +74,7 @@ nav ul li a:hover {
   background-image: './oranges2.jpg';
   background-size: cover;
   background-position: center;
-  opacity: 0.2; /* Adjust this value to change the opacity */
+  opacity: 0.7; /* Adjust this value to change the opacity */
   z-index: 0;
 }
 section.hero {
