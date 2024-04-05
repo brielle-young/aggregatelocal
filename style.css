@@ -58,7 +58,7 @@ nav ul li a:hover {
 .hero {
   display: flex;
   align-items: center;
-  padding: 4rem 4rem;
+  padding: 3rem 3rem;
   position: center;
   overflow: hidden;
   min-height: 70vh;
@@ -80,7 +80,7 @@ nav ul li a:hover {
 section.hero {
   position: relative;
   overflow: hidden;
-  height: 500px; /* Adjust the height as needed */
+  height: 400px; /* Adjust the height as needed */
 }
 
 .section__pic-container {
@@ -104,13 +104,13 @@ section.hero {
   position: center;
   z-index: 1;
   text-align: center;
-  padding: 4rem;
+  padding: 2.5rem;
 }
 
 .hero h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 44px;
+  font-weight: 600;
   margin-bottom: 1rem;
   color: #fff;
 }
