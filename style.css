@@ -593,9 +593,7 @@ footer {
   }
 
   .hero-content {
-    text-align: center; /* Center text horizontally */
-    margin: 0 auto; /* Center horizontally */
-    width: 100%; /* Ensure full width */
+    margin-left: 10px; /* Adjust the left margin as needed */
   }
 }
 
@@ -627,9 +625,7 @@ footer {
   }
   
  .hero-content {
-    text-align: center; /* Center text horizontally */
-    margin: 0 auto; /* Center horizontally */
-    width: 100%; /* Ensure full width */
+    margin-left: 10px; /* Adjust the left margin as needed */
   }
 }
 /* Media query for smaller devices */
