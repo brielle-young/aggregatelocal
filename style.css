@@ -591,10 +591,11 @@ footer {
   .feature-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .hero h1,
-  .hero p {
-    margin: 0; /* Reset margin */
+  .hero-content {
+    text-align: center; /* Center text horizontally */
     padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+    width: 100%; /* Ensure full width */
   }
 }
 
@@ -625,8 +626,11 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
   
-  .hero-content {
+ .hero-content {
     text-align: center; /* Center text horizontally */
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+    width: 100%; /* Ensure full width */
   }
 }
 /* Media query for smaller devices */
@@ -663,16 +667,6 @@ footer {
     font-size: 1rem; /* Adjust the font size for LinkedIn link */
     margin-right: 1rem; /* Add spacing between LinkedIn and email */
     color: #2e4f2f; /* Ensure the color is visible */
-  }
-
-  .hero-content {
-    text-align: center; /* Center text horizontally */
-  }
-
-.hero h1,
-  .hero p {
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
   }
 
   .search-container {
