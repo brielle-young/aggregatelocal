@@ -656,7 +656,9 @@ footer {
     color: #2e4f2f; /* Ensure the color is visible */
   }
 
-
+  .hero-content {
+    text-align: center; /* Center text horizontally */
+  }
 
 
   
