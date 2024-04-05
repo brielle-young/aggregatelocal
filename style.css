@@ -591,10 +591,10 @@ footer {
   .feature-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .hero-content {
-    text-align: left; /* Center text horizontally */
-    padding: 0; /* Reset padding */
-    margin: 0; /* Reset margin */
+    text-align: center; /* Center text horizontally */
+    margin: 0 auto; /* Center horizontally */
     width: 100%; /* Ensure full width */
   }
 }
@@ -627,9 +627,8 @@ footer {
   }
   
  .hero-content {
-    text-align: left; /* Center text horizontally */
-    padding: 0; /* Reset padding */
-    margin: 0; /* Reset margin */
+    text-align: center; /* Center text horizontally */
+    margin: 0 auto; /* Center horizontally */
     width: 100%; /* Ensure full width */
   }
 }
