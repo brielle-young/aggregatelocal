@@ -645,10 +645,17 @@ footer {
     max-height: 40px; /* Decrease the size of the logo */
   }
 
-  .contact-info {
-    display: none; /* Hide the contact info on smaller screens */
+ .contact-info {
+    display: flex; /* Display the contact info */
+    align-items: center; /* Center items vertically */
   }
-}
+
+  .linkedin-link {
+    font-size: 1rem; /* Adjust the font size for LinkedIn link */
+    margin-right: 1rem; /* Add spacing between LinkedIn and email */
+    color: #fff; /* Ensure the color is visible */
+  }
+
 
 
 
