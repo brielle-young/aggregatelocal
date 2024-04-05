@@ -625,10 +625,11 @@ footer {
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: row; /* Change direction to a row */
-    justify-content: center; /* Center items horizontally */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
     overflow-x: auto; /* Enable horizontal scrolling if needed */
     -webkit-overflow-scrolling: touch; /* Smooth scrolling for WebKit browsers */
-    max-width: 95%; /* Ensure it doesn't overflow the viewport */
+    max-width: 100%; /* Ensure it doesn't overflow the viewport */
   }
 
   nav ul {
@@ -636,9 +637,20 @@ footer {
   }
 
   nav ul li {
-    margin-left: 0.75rem; /* Add spacing between items */
+    margin-left: 1rem; /* Add spacing between items */
     margin-bottom: 0; /* Remove vertical margin */
   }
+
+  .logo img {
+    max-height: 40px; /* Decrease the size of the logo */
+  }
+
+  .contact-info {
+    display: none; /* Hide the contact info on smaller screens */
+  }
+}
+
+
 
   
 }
