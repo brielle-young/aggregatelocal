@@ -1,76 +1,73 @@
-@media (max-width: 767px) {
-
-  /* Hero Section */
-  .hero {
-    padding: 1.5rem; /* Reduce padding for smaller screens */
+/* Media Queries */
+@media (max-width: 768px) {
+  .mobile-container {
+    padding: 8px;
   }
 
-  .hero h1 {
-    font-size: 26px; /* Reduce font size for heading */
+  header {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .hero p {
-    font-size: 1rem; /* Reduce font size for paragraph */
+  .logo img {
+    max-width: 120px;
   }
 
-  .hero-content {
-    text-align: center; /* Maintain centered text */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
   }
 
-  /* Hero Image */
-  .section__pic-container {
-    display: none; /* Hide image container on mobile */
+  nav li {
+    margin-right: 4;
+    margin-bottom: 10px;
   }
 
-  /* Search Container */
-  .search-container {
-    display: none; /* Hide search container on mobile */
+  .hero-content h1 {
+    font-size: 18px;
   }
 
-  /* Info Section */
-  .info-section-content {
-    flex-direction: column; /* Stack elements vertically */
+  .hero-content p {
+    font-size: 14px;
   }
 
-  .benefit-icon {
-    width: 30px; /* Reduce icon size */
-    height: 30px; /* Reduce icon size */
+  .search-container input {
+    font-size: 14px;
   }
 
-  /* Feature Grid */
-  .feature-grid {
-    grid-template-columns: repeat(1, 1fr); /* Single column for features */
+  .search-filters label {
+    font-size: 14px;
   }
 
-  /* Farmers Section */
-  .farmers-content {
-    max-width: 100%; /* Allow full width for content */
-  }
-
-  /* About & Contact Sections */
-  .about,
-  .contact {
-    padding: 3rem; /* Adjust padding for smaller screens */
-  }
-
-  /* Product Categories */
-  .product-categories {
-    animation: none; /* Disable animation on mobile */
-    overflow-x: auto; /* Enable horizontal scrolling if needed */
-  }
-
-  /* Search Interface */
-  .search-interface {
-    max-width: 100%; /* Allow full width for search */
-  }
-
-  /* Result Grid */
   .result-grid {
-    grid-template-columns: repeat(1, 1fr); /* Single column for results */
+    grid-template-columns: 1fr;
   }
 
-  /* Testimonials */
+  .feature-grid {
+    grid-template-columns: 0.5fr;
+  }
+
   .testimonial-grid {
-    grid-template-columns: repeat(1, 1fr); /* Single column for testimonials */
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info a {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .testimonial-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
