@@ -628,7 +628,7 @@ footer {
     justify-content: center; /* Center items horizontally */
     overflow-x: auto; /* Enable horizontal scrolling if needed */
     -webkit-overflow-scrolling: touch; /* Smooth scrolling for WebKit browsers */
-    max-width: 100%; /* Ensure it doesn't overflow the viewport */
+    max-width: 95%; /* Ensure it doesn't overflow the viewport */
   }
 
   nav ul {
@@ -636,13 +636,11 @@ footer {
   }
 
   nav ul li {
-    margin-left: 1rem; /* Add spacing between items */
+    margin-left: 0.75rem; /* Add spacing between items */
     margin-bottom: 0; /* Remove vertical margin */
   }
 
-  .logo {
-    margin-right: auto; /* Push logo to the left */
-  }
+  
 }
 
 
