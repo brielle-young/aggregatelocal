@@ -621,24 +621,28 @@ footer {
   }
 }
 /* Media query for smaller devices */
+/* Media query for smaller devices */
 @media screen and (max-width: 768px) {
   nav {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row; /* Change direction to a row */
+    justify-content: center; /* Center items horizontally */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for WebKit browsers */
+    max-width: 100%; /* Ensure it doesn't overflow the viewport */
   }
 
   nav ul {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row; /* Arrange items in a row */
   }
 
   nav ul li {
-    margin-left: 0; /* Remove the margin */
-    margin-bottom: 1rem; /* Add space between items */
+    margin-left: 1rem; /* Add spacing between items */
+    margin-bottom: 0; /* Remove vertical margin */
   }
 
-  .logo img {
-    margin-bottom: 1rem; /* Add space between logo and items */
+  .logo {
+    margin-right: auto; /* Push logo to the left */
   }
 }
+
 
