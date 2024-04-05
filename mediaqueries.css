@@ -2,11 +2,11 @@
 
   /* Hero Section */
   .hero {
-    padding: 2rem; /* Reduce padding for smaller screens */
+    padding: 1.5rem; /* Reduce padding for smaller screens */
   }
 
   .hero h1 {
-    font-size: 32px; /* Reduce font size for heading */
+    font-size: 26px; /* Reduce font size for heading */
   }
 
   .hero p {
@@ -33,8 +33,8 @@
   }
 
   .benefit-icon {
-    width: 40px; /* Reduce icon size */
-    height: 40px; /* Reduce icon size */
+    width: 30px; /* Reduce icon size */
+    height: 30px; /* Reduce icon size */
   }
 
   /* Feature Grid */
