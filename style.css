@@ -664,7 +664,11 @@ footer {
     text-align: center; /* Center text horizontally */
   }
 
-
+.hero h1,
+  .hero p {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+  }
   
 }
 
