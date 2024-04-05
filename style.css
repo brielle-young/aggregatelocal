@@ -674,7 +674,22 @@ footer {
     margin: 0; /* Reset margin */
     padding: 0; /* Reset padding */
   }
-  
+
+  .search-container {
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .search-container input {
+    width: 100%; /* Make input full width */
+    margin-bottom: 1rem; /* Add spacing between input and button */
+  }
+
+  .search-btn {
+    width: 100%; /* Make button full width */
+    margin-bottom: 1rem; /* Add spacing between button and next element */
+  }
+}
 }
 
 
