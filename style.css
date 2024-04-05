@@ -619,6 +619,10 @@ footer {
   .feature-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  
+  .hero-content {
+    text-align: center; /* Center text horizontally */
+  }
 }
 /* Media query for smaller devices */
 /* Media query for smaller devices */
