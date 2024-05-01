@@ -1,187 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <script src="script.js"></script>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aggregate: Shop Local</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <img src="logo.jpg" alt="Aggregate: Shop Local">
-      </div>
-      <ul>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfODjvXINoBMOUvCaYLXmYd4CLAYkPUCqcWCjX33vVX0PDzFg/viewform?usp=sf_link">Sign Up</a>
-        <li><a href="#"></a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#farmers"></a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero earth-theme">
-  <div class="section__pic-container">
-    <img src='./fruit.jpg' alt="Fruit Background" />
-  </div>
-  <div class="hero-content">
-    <h1>Discover local products near <em>you.</em></h1>
-    <p>Aggregate connects you to fresh, sustainably-grown food from your community.</p>
-    <div class="cta-container">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfODjvXINoBMOUvCaYLXmYd4CLAYkPUCqcWCjX33vVX0PDzFg/viewform?usp=sf_link" class="cta-button">Sign Up</a>
-    </div>
-  </div>
-</section>
-       <section class="info-section">
-  <div class="info-section-content">
-    </div>
-  </div>
-</section>
-    <section class="about" id="about">
-      <div class="about-content">
-        <div class="search-interface">
-          <h3>Find Local Farmers and Products</h3>
-          <div class="search-container">
-            <input type="text" placeholder="Ex: Palos Verdes, California" disabled>
-              <button class="search-btn" disabled>
-                  <i class="fas fa-search"></i>
-              </button>
-          </div>
-          <div class="search-filters">
-            <label>
-              <input type="checkbox" name="organic" disabled>
-              Organic
-            </label>
-            <label>
-              <input type="checkbox" name="sustainable" disabled>
-              Sustainable
-            </label>
-            <label>
-              <input type="checkbox" name="dairy" disabled>
-              Dairy
-            </label>
-            <label>
-              <input type="checkbox" name="produce" disabled>
-              Produce
-            </label>
-          </div>
-        </div>
-        <div class="search-results">
-          <div class="result-grid">
-            <div class="result-item">
-              <img src="eggs.jpg" alt="Farmer 1">
-              <h4>Sunny Acres Farm</h4>
-              <p>Organic produce, 5 miles away</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Aggregate: Shop Local</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav_header">
+                <div class="nav_logo">
+                    <a href="#"
+                    >aggregate</a>
+                </div>
+                <div class="nav_menu_btn" id="menu-btn">
+                    <span><i class="ri-menu-line"></i></span>
+                </div>
             </div>
-            <div class="result-item">
-              <img src="tomatoes.jpg" alt="Product 1">
-              <h4>Fresh Tomatoes</h4>
-              <p>Sustainably grown, 2 miles away</p>
+            <ul class="nav_links" id="nav-links">
+                <li><a href="#">Home</a></li>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfODjvXINoBMOUvCaYLXmYd4CLAYkPUCqcWCjX33vVX0PDzFg/viewform?usp=sf_link'>Sign Up</a>
+                <li><a href="#about">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+            <div class="nav_btns">
+                <button class="btn"><a href='https://docs.google.com/forms/d/e/1FAIpQLSfODjvXINoBMOUvCaYLXmYd4CLAYkPUCqcWCjX33vVX0PDzFg/viewform?usp=sf_link'>Sign Up</a></button>
             </div>
-            <div class="result-item">
-              <img src="lettuce.jpg" alt="Farmer 2">
-              <h4>Green Valley Dairy</h4>
-              <p>Organic dairy, 8 miles away</p>
+        </nav>
+        <header class="section__container header__container">
+            <div class="header__image">
+                <img src="assets/updatedag.png" alt="header" />
             </div>
-            <div class="result-item">
-              <img src="honey.jpg" alt="Product 2">
-              <h4>Local Honey</h4>
-              <p>Sustainably harvested, 3 miles away</p>
+            <div class="header__content">
+                <h1>DISCOVER LOCAL PRODUCE NEAR YOU.</h1>
+                <p>
+                    Shop local anywhere, anytime.
+                </p>
+                <div class="header__btns">
+                    <button class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfODjvXINoBMOUvCaYLXmYd4CLAYkPUCqcWCjX33vVX0PDzFg/viewform?usp=sf_link">Sign Up</a></button>
+                    <button class="btn"><a href="#about">Learn More</a></button>
+                </div>
             </div>
-          </div>
-          <div class="map-container">
-            <div class="map">
-              <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-              <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-              <div class="hero-image">
-                <div id="map" class="map-container"></div>
+        </header>
+        <section class="section__container about__container" id="about">
+            <div class="about__image">
+                <img src="assets/farmers.png" alt="about">
+            </div>
+            <div class="about__content">
+                <h2 class="section__header">We'll connect you to fresh produce from your community</h2>
+                <p class="section__description">
+                    Search by product, location, or vendor with our platform. Discover produce and handmade goods.
+                </p>
+                <button class="btn"><a href='#footer'>Learn More</a></button>
+                <img src="assets/features1.png" alt="map">
+            </div>
+        </section>
+        <section class="section__container info__container" id="info">
+            <div class="info__header">
+              <div>
+                <h3 class="section__subheader"></h3>
+                <h2 class="section__header">
+                  Groceries are just a few clicks away!
+                </h2>
+              </div>
+              <p class="section__description">
+                
+              </p>
+            </div>
+            <div class="info__grid">
+              <div class="info__card">
+                <p>Join for FREE</p>
+                <h4>Browse and list products at no cost.</h4>
+              </div>
+              <div class="info__card">
+                <p>Support Local Farmers</p>
+                <h4>Support your sustainable community.</h4>
+              </div>
+              <div class="info__card">
+                <p>Transparent Supply Chain</p>
+                <h4>Get fresh goods fast.</h4>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          </section>
+        <section class="section__container discover__container" id="discover">
+            <div class="discover__content">
+                <h2 class="section__header">
+                    Empower<br />local farmers
+                </h2>
+                <p class="section__description">
+                    Aggregate provides a platform for small-scale farmers to sell their products directly to customers, expanding their reach and growing their businesses.
+                </p>
+                <button class="btn"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfODjvXINoBMOUvCaYLXmYd4CLAYkPUCqcWCjX33vVX0PDzFg/viewform?usp=sf_link">Sign Up</a></button>
+                </div>
+                <div class="discover__wrapper">
+                    <div class="discover__wrapper-inner">
+                        <img src="assets/discover-1.png" alt="discover" />
+                        <img src="assets/discover-3.png" alt="discover" />
+                        <img src="assets/discover-2.png" alt="discover" />
+                        <img src="assets/discover-4.png" alt="discover" />
+                    </div>
+                </div>
+        </section>
 
-    <section class="features">
-      <h2>Our Features</h2>
-      <div class="feature-grid">
-        <div class="feature">
-          <i class="fas fa-globe-americas"></i>
-          <h3>Support Local Farmers</h3>
-          <p>Empower small-scale farmers to sell directly to customers, while shopping sustainably.</p>
-        </div>
-        <div class="feature">
-          <i class="fas fa-truck-moving"></i>
-          <h3>Transparent Supply Chain</h3>
-          <p>Provide customers with visibility into the origin of their food, and deliver right to their door.</p>
-        </div>
-        <div class="feature">
-          <i class="fas fa-users"></i>
-          <h3>Supportive Community</h3>
-          <p>Connect farmers and customers in a thriving local ecosystem.</p>
-        </div>
-      </div>
-    </section>
+        <section class="section__container faq__container" id="faq">
+            <div class="faq__image">
+              <img src="assets/faqimage1.png" alt="faq" />
+            </div>
+            <div class="faq__content">
+              <h3 class="section__subheader">Explore our</h3>
+              <h2 class="section__header">Frequently Asked Questions</h2>
+              <div class="faq__grid">
+                <div class="faq__card">
+                  <div class="faq__header">
+                    <h4>Do you offer delivery or pickup options?</h4>
+                    <span><i class="ri-arrow-down-s-line"></i></span>
+                  </div>
+                  <div class="faq__description">
+                    Aggregate provides both delivery and pickup options, depending on the preferences of the individual producers. Customers can choose the most convenient option when placing their orders.
+                  </div>
+                </div>
+                <div class="faq__card">
+                  <div class="faq__header">
+                    <h4>How does the ordering process work?</h4>
+                    <span><i class="ri-arrow-down-s-line"></i></span>
+                  </div>
+                  <div class="faq__description">
+                    Customers can browse through the products listed by farmers on our platform, select the items they wish to purchase, and complete their order online. The farmers then fulfill the orders and arrange for delivery or pickup options.
+                  </div>
+                </div>
+                <div class="faq__card">
+                  <div class="faq__header">
+                    <h4>How can I join Aggregate as a producer?</h4>
+                    <span><i class="ri-arrow-down-s-line"></i></span>
+                  </div>
+                  <div class="faq__description">
+                    We welcome all small-scale farmers who are interested in selling their products on our platform. Apply today to become a vendor through our website.
+                  </div>
+                </div>
+                <div class="faq__card">
+                  <div class="faq__header">
+                    <h4>How do you ensure the quality of the products?</h4>
+                    <span><i class="ri-arrow-down-s-line"></i></span>
+                  </div>
+                  <div class="faq__description">
+                    We work closely with our farmers to ensure that all products listed on our platform meet our quality standards. We also encourage feedback from customers to continuously improve the quality of offerings.
+                  </div>
+                </div>
+                <div class="faq__card">
+                  <div class="faq__header">
+                    <h4>What kind of products can I find on Aggregate?</h4>
+                    <span><i class="ri-arrow-down-s-line"></i></span>
+                  </div>
+                  <div class="faq__description">
+                    We offer a variety of products from small-scale farmers, including fresh produce, dairy products, meats, grains, and artisanal goods.
+                  </div>
+                </div>
+                <div class="faq__card">
+                  <div class="faq__header">
+                    <h4>How does Aggregate benefit small-scale farmers?</h4>
+                    <span><i class="ri-arrow-down-s-line"></i></span>
+                  </div>
+                  <div class="faq__description">
+                    Aggregate allows small-scale farmers to sell their products directly to customers, cutting out middlemen and increasing their profits. Additionally, it provides them with a wider audience and helps grow their businesses.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-    <section class="farmers" id="farmers">
-      <div class="farmers-background">
-        <div class="wave wave-1"></div>
-        <div class="wave wave-2"></div>
-        <div class="wave wave-3"></div>
-      </div>
-      <div class="farmers-content">
-        <h2>Empower Local Farmers</h2>
-        <p>Aggregate provides a platform for small-scale farmers to sell their products directly to customers, expanding their reach and growing their businesses.</p>
-        <div class="cta-container">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfODjvXINoBMOUvCaYLXmYd4CLAYkPUCqcWCjX33vVX0PDzFg/viewform?usp=sf_link" class="cta-button">Join Us</a>
-      </div>
-    </section>
     
-
-    <section class="contact" id="contact">
-      <h2>Get in Touch</h2>
-      <div class="contact-info">
-        <a href="https://www.linkedin.com/company/aggregatelocal" target="_blank" class="linkedin-link">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <p>aggregateshoplocal@gmail.com</p>
-      </div>
-    </section>
-
-    <section class="testimonials">
-      <h2>Frequently Asked Questions</h2>
-      <div class="testimonial-grid">
-        <div class="testimonial">
-          <blockquote>Is Aggregate free to use?</blockquote>
-          <cite>Yes, Aggregate is a free platform for both customers and producers. There are no membership fees or commissions charged.</cite>
-        </div>
-        <div class="testimonial">
-          <blockquote>Do you offer delivery or pickup options?</blockquote>
-          <cite>Aggregate provides both delivery and pickup options, depending on the preferences of the individual producers. Customers can choose the most convenient option when placing their orders.</cite>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-content">
-      <div class="logo">
-        <img src="logo.jpg" alt="Aggregate: Shop Local">
-      </div>
-      <p>&copy; 2024 Aggregate: Shop Local. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+      
+          <footer class="footer" id="footer">
+            <div class="section__container footer__container">
+                <div class="nav_logo">
+                    <a href="#"
+                    >aggregate</a>
+                </div>
+              <div class="footer__content">
+                <p>
+                 Our mission is to foster vibrant communities through local commerce, while equipping local businesses with tools for growth and sustainability.
+                </p>
+                <div>
+                  <ul class="footer__links">
+                    <li>
+                      <span><i class="ri-map-pin-2-fill"></i></span>
+                      UPSTATE, NY
+                    </li>
+                    <li>
+                      <span><i class="ri-mail-fill"></i></span>
+                      aggregateshoplocal@gmail.com
+                    </li>
+                  </ul>
+                  <div class="footer__socials">
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-whatsapp-fill"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__bar">
+              Copyright © 2024 Aggregate: Shop Local. All rights reserved.
+            </div>
+          </footer>
+      
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="main.js"></script>
+    </body>
 </html>
-
