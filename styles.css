@@ -305,17 +305,17 @@ nav{
   
   .info__card:nth-child(1) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("assets/avocado.png");
+      url("avocado.png");
   }
   
   .info__card:nth-child(2) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("assets/womaneating.png");
+      url("womaneating.png");
   }
   
   .info__card:nth-child(3) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("assets/heroimageag.png");
+      url("heroimageag.png");
   }
   
   .info__card p {
