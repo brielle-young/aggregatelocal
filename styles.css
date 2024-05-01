@@ -50,6 +50,7 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     cursor: pointer;
+    color: inherit;
     
   }
   
@@ -118,6 +119,7 @@ nav{
     font-size: 1.5rem;
     color: var(--white);
     cursor: pointer;
+    color: inherit;
 }
 
 .nav_links {
@@ -155,6 +157,7 @@ nav{
 .nav_btns{
     display: none;
     color: white;
+    color: inherit;
 }
 
 .header__container{
@@ -203,6 +206,7 @@ nav{
     justify-content: center;
     gap: 3rem;
     margin-bottom: 2rem;
+    color: white;
     
 }
 
