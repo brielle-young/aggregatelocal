@@ -1,27 +1,73 @@
-function toggleMenu() {
-  const menu = document.querySelector(".menu-links");
-  const icon = document.querySelector(".hamburger-icon");
-  menu.classList.toggle("open");
-  icon.classList.toggle("open");
-}
+const menuBtn = document.getElementById("menu-btn");
+const navLinks = document.getElementById("nav-links");
+const menuBtnIcon = menuBtn.querySelector("i");
 
-// Initialize the map
-var map = L.map('map').setView([37.7749, -122.4194], 4); // Set the initial view to the United States
+menuBtn.addEventListener("click", (e) => {
+    navLinks.classList.toggle("open");
 
-// Add the map tiles
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
+    const isOpen = navLinks.classList.contains("open");
+    menuBtnIcon.setAttribute("class", isOpen?"ri-close-line": "ri-menu-line")
+});
 
-// Add the farm location markers
-var farmLocations = [
-  [37.7749, -122.4194], // San Francisco
-  [40.7128, -74.0060], // New York
-  [34.0522, -118.2437], // Los Angeles
-  [47.6062, -122.3321], // Seattle
-  [39.9526, -75.1652] // Philadelphia
-];
+navLinks.addEventListener("click", (e) => {
+    navLinks.classList.remove("open");
+    menuBtnIcon.setAttribute("class", "ri-menu-line");
+});
 
-farmLocations.forEach(function(location) {
-  L.marker(location).addTo(map);
+const scrollRevealOption = {
+    distance:"50px",
+    origin:"bottom",
+    duration: 1000,
+};
+
+ScrollReveal().reveal(".header__image img", {
+    ...scrollRevealOption,
+    origin: "right",
+});
+
+ScrollReveal().reveal(".header__content h1", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".header__content p", {
+    ...scrollRevealOption,
+    delay: 1500,
+});
+
+ScrollReveal().reveal(".header__btns", {
+    ...scrollRevealOption,
+    delay: 2000,
+});
+
+const discover = document.querySelector(".discover__wrapper-inner");
+
+const discoverContent = Array.from(discover.children);
+
+discoverContent.forEach(item => {
+    const duplicateNode = item.cloneNode(true)
+    duplicateNode.setAttribute("aria-hidden", true);
+    discover.appendChild(duplicateNode);
+});
+
+const faq = document.querySelector(".faq__grid");
+
+faq.addEventListener("click", (e) => {
+  const target = e.target;
+  const faqCard = target.closest(".faq__card");
+  if (target.classList.contains("ri-arrow-down-s-line")) {
+    if (faqCard.classList.contains("active")) {
+      faqCard.classList.remove("active");
+    } else {
+      Array.from(faq.children).forEach((item) => {
+        item.classList.remove("active");
+      });
+      faqCard.classList.add("active");
+    }
+  }
+});
+
+ScrollReveal().reveal(".faq__image img", {
+  ...scrollRevealOption,
+  origin: "left",
 });
